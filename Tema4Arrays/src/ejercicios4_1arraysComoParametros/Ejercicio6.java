@@ -3,11 +3,10 @@ package ejercicios4_1arraysComoParametros;
 public class Ejercicio6 {
 	public void show() {
 		int [] lista = {2,3,4,4,3,2};
+		System.out.println("{2,3,4,4,3,2}");
 		if (capicua(lista)) {
-			System.out.println("{2,3,4,4,3,2}");
 			System.out.println("El array es capicua");
 		}else{
-			System.out.println("{2,3,4,4,1,2}");
 			System.out.println("El array no es capicua");
 		};
 	}
@@ -33,3 +32,4 @@ public class Ejercicio6 {
 	}
 
 }
+
